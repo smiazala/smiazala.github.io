@@ -16,13 +16,13 @@ h1, h2{
 .naslov{
 	color: #f6f2ff;
 	text-align: center;
-	background-image: url("Slike/naslovna_pasica.png");
+	background-image: url("naslovna_pasica.png");
 	padding: 10px;
 	}
 
 .navigacijska_vrstica {
 	overflow: hidden;
-	background-image: url("Slike/naslovna_pasica_obrat.png");
+	background-image: url("naslovna_pasica_obrat.png");
 	padding: 5px;
 	font-family: "Verdana";
 	font-size: 20px;
