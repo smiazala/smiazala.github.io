@@ -1,0 +1,140 @@
+/* OSNOVNI ELEMENTI */
+body{
+	background-color: #f6f2ff;
+	font-family: "Verdana";
+	font-size: 16px;
+	text-align: left;
+}
+
+h1, h2{
+	text-align: center;
+	font-family: "Verdana";
+	/*color: #f6f2ff;*/
+}
+
+/* NASLOVNA PASICA IN NAVIGACIJSKA VRSTICA */
+.naslov{
+	color: #f6f2ff;
+	text-align: center;
+	background-image: url("Slike/naslovna_pasica.png");
+	padding: 10px;
+	}
+
+.navigacijska_vrstica {
+	overflow: hidden;
+	background-image: url("Slike/naslovna_pasica_obrat.png");
+	padding: 5px;
+	font-family: "Verdana";
+	font-size: 20px;
+	text-align: center;
+	color: #f6f2ff;
+}
+
+/* hiperpovezave navigacijske vrstice */
+.navigacijska_vrstica a {
+	float: left;
+	color: #f6f2ff;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 25px;
+	
+}
+
+.navigacijska_vrstica a:hover {
+	background-color: #f6f2ff;
+	color: #420039;	
+}
+
+.navigacijska_vrstica a.active {
+	background-color: #f6f2ff;
+	color: #420039;
+}
+
+/* hiperpovezava logotipa */
+.navigacijska_vrstica a.logo {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.navigacijska_vrstica a.logo:hover {
+	background-color: #f6f2ff;
+	color: #420039;	
+	padding: 0px;
+	line-height: 0px;
+}
+
+/* Desna poravnava menija */
+.meni {
+	float: right;
+}
+
+/* GUMB NA VRH */
+#naVrh{
+	position: fixed;
+	bottom: 10px;
+	float: right;
+	right: 5px;
+	max-width: 100px;
+	width: 100%;
+	font-size: 16px;
+	border-color: #420039;
+	background-color: #420039;
+	padding: 0px;
+	border-radius: 4px;
+}
+
+#naVrh:hover{
+	background-color: #f6f2ff;
+	color: #420039;
+}
+
+#naVrh a{
+	padding: 0px 23px;
+	color: #f6f2ff;
+	text-decoration: none;
+	margin: 0px;
+	border-radius: 0px;
+}
+
+#naVrh a:active, #naVrh a:hover{
+	color: #420039;
+}	
+
+/* VSEBINA */
+.besedilo {
+	float: left;
+	padding: 5px;
+}
+
+.slika{
+	text-align: center;
+	padding: 5px;
+	border-radius: 2px;
+	border-color: #420039;
+}
+
+.slika img{
+	font-size: 0.9rem;
+	font-style: italic;
+	max-width: 500px;
+	height: auto;
+	display: block;
+	margin: auto;
+}
+
+.apa-viri{
+	text-indent: -18px;
+	padding-left: 36px;
+}
+
+/* NOGA */
+.noga {
+	background: #dcccff;
+	padding: 5px;
+	font-family: "Verdana";
+	font-size: 15px;
+	text-align: center;
+	color: #420039;
+}
